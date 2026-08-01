@@ -1,0 +1,30 @@
+{
+  "name": "obsidian-json-editor",
+  "version": "1.0.0",
+  "description": "JSON viewer and editor plugin for Obsidian",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "json",
+    "json-editor",
+    "json-viewer"
+  ],
+  "author": "Jules",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@types/node": "^20.0.0",
+    "esbuild": "^0.20.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "obsidian": "latest",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-json-editor",
+  "name": "JSON Viewer and Editor",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Browse, view, and edit all JSON files in your vault using a custom dedicated interface.",
+  "author": "Jules",
+  "authorUrl": "https://github.com/jules",
+  "isDesktopOnly": false
+}
